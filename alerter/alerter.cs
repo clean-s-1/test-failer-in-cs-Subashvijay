@@ -36,7 +36,7 @@ namespace AlerterSpace
             alertIncelsius(400.5f);
             alertIncelsius(303.6f);
             Debug.Assert(networkAlertStub(230) == 500);
-            Debug.Assert(networkAlertStub(430) == 500);
+            Debug.Assert(networkAlertStub(430) == 200);
             Console.WriteLine("{0} alerts failed.", alertFailureCount);
             Console.WriteLine("All is well (maybe!)\n");
         }
